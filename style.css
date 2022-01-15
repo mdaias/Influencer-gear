@@ -12,7 +12,7 @@ body{
      ===== header start =========
      ========================*/
 header{
-   height: 100vh;
+   /* height: 100vh; */
 }
 .container,.banner{
     display: flex;
@@ -22,13 +22,15 @@ header{
     margin: 0 auto;
 }
 .heading{
-    border: 3px solid gold;
+    font-size: 21px;
+    font-weight: 500;
 }
         /* ===========
         Navigation style
         ============ */
 .nav{
-    border: 3px solid gold;
+    font-size: 16px;
+    font-weight: 700;
 }
 .navigation{
     display: flex;
@@ -120,6 +122,9 @@ hr {
     gap: 30px;
     margin-top: 40px;
 }
+    /*=================
+     ===Article style====
+     ================== */
 article{
     width: 329px;
     height: 476px;
@@ -135,9 +140,54 @@ article{
     font-weight: 700;
     font-size: 14px;
 }
-.price{
-    font-size: 30px;
+.fa-star{
+    color: #FB8200;
+    font-size: 11.07px;
+}
+.fa-star-half-alt{
+    color: #FB8200;
+    font-size: 11.07px;
+}
+span{
+    padding: 5px;
+}
+.details h3{
+    font-weight: 700;
     margin-top: 5px;
     margin-bottom:5px ;
     padding: 5px;
+}
+.see-more{
+    text-align: right;
+    margin-top: 60px;
+    margin-left: 60em;
+}
+.see-more a{
+    text-decoration: none;
+    color: #a5075e;
+    text-align: right;
+}
+
+    /* ===================
+        footer style
+    ====================== */
+
+footer{
+    background-color: #030324;
+    color: oldlace;
+    height: 200px;
+    text-align: center;
+    margin-top: 40px;
+}
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 30px;
+}
+.info a{
+    text-decoration: none;
+    color: oldlace;
+    padding: 10px;
 }
