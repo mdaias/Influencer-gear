@@ -135,3 +135,9 @@ article{
     font-weight: 700;
     font-size: 14px;
 }
+.price{
+    font-size: 30px;
+    margin-top: 5px;
+    margin-bottom:5px ;
+    padding: 5px;
+}
