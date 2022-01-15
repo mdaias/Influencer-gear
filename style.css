@@ -165,6 +165,12 @@ span{
     color: #a5075e;
     text-align: right;
 }
+.feature{
+    width: 500px;
+    text-align: center;
+    margin-left: 100px;
+}
+
 
     /* ===================
         footer style
@@ -221,5 +227,8 @@ footer{
     }
     footer{
         flex-direction: column;
+    }
+    .feature{
+        width: auto;
     }
 }
